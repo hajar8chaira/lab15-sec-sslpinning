@@ -1,4 +1,4 @@
-# Rapport d'Expertise Technique : Analyse et Neutralisation du SSL Pinning
+# Analyse et Neutralisation du SSL Pinning
 ## Lab 15 - Audit de Sécurité Mobile Avancé
 **Cible :** SSL Pinning Demo (Android x86_64)
 
@@ -12,6 +12,7 @@ L'objectif de ce laboratoire est de démontrer que, malgré cette protection, un
 ---
 # Apk Utilise: "SSL Pinning Demo" 
 ![](./img-lab15-sec/6-1.png)
+
 ![](./img-lab15-sec/7.png)
 
 ## 2. Phase de Préparation : Mise en place du Man-In-The-Middle
