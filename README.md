@@ -90,10 +90,6 @@ L'objectif final est atteint : les requêtes HTTP, autrefois chiffrées, apparai
 ## 7. Conclusion et Recommandations
 Ce laboratoire prouve que le SSL Pinning est une défense "contournable" par un attaquant possédant un accès physique ou root à l'appareil. La sécurité mobile doit donc être pensée en profondeur (Defense in Depth).
 
-### Recommandations pour les développeurs :
-*   **Obfuscation agressive** : Rendre les noms de classes (comme `CertificatePinner`) illisibles.
-*   **Contrôles Anti-Frida** : Détecter la présence du serveur Frida en mémoire ou via les ports ouverts (default 27042).
-*   **Attestation d'intégrité (SafetyNet/Play Integrity)** : Vérifier que l'appareil n'est pas rooté avant d'autoriser les transactions sensibles.
 
 ---
 
